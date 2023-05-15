@@ -1,0 +1,60 @@
+.container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+#image1, #image2 {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#image1, #image2 {
+    position: relative;
+
+}
+
+#image2 {
+    top: -300px;
+}
+
+.button1, .button2 {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: aliceblue; 
+    cursor: pointer;  
+}
+.button1:hover {
+    background-color: rgb(74, 80, 85);
+    
+}
+.button2:hover {
+    background-color: rgb(74, 80, 85);
+    
+}
+
+.btn1_2 {
+    display: flex;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    position: relative;
+    top: -230px;
+}
